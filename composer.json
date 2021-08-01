@@ -1,0 +1,35 @@
+{
+    "name": "brunocfalcao/dev",
+    "description": "Brunofalcao.dev website",
+    "keywords": ["Laravel", "Bruno Falcao", "Tutorials"],
+    "homepage": "https://github.com/brunocfalcao/dev",
+    "license": "MIT",
+    "authors": [{
+        "name": "Bruno Falcao",
+        "email": "bruno.c.falcao@brunofalcao.me",
+        "homepage": "https://www.brunofalcao.dev",
+        "role": "Developer"
+    }],
+    "require": {
+        "php": "^7.4|^8.0",
+        "brunocfalcao/eduka-nereus": "dev-master",
+        "illuminate/support": "^7.14|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Brunocfalcao\\Dev\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Brunocfalcao\\Dev\\DevServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
