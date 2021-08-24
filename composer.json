@@ -20,13 +20,6 @@
             "Brunocfalcao\\Dev\\": "src"
         }
     },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Brunocfalcao\\Dev\\DevServiceProvider"
-            ]
-        }
-    },
     "config": {
         "sort-packages": true
     },
