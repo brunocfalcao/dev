@@ -3,7 +3,6 @@
 namespace Brunocfalcao\Dev;
 
 use Eduka\Abstracts\EdukaServiceProvider;
-use Illuminate\Support\ServiceProvider;
 
 final class DevServiceProvider extends EdukaServiceProvider
 {
