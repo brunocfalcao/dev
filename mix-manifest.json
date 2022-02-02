@@ -1,1 +1,5 @@
-{}
+{
+    "/public/vendor/dev/css/app.css": "/public/vendor/dev/css/app.css",
+    "/public/vendor/dev/js/retina.min.js": "/public/vendor/dev/js/retina.min.js",
+    "/public/vendor/dev/images/hero.png": "/public/vendor/dev/images/hero.png"
+}
