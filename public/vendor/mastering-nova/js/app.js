@@ -30541,8 +30541,8 @@ module.exports = JSON.parse('{"name":"axios","version":"0.21.4","description":"P
 /******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
 /******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
 /******/ 		var installedChunks = {
-/******/ 			"/public/vendor/mastering-nova/js/app": 0,
-/******/ 			"public/vendor/mastering-nova/css/app.tailwind": 0
+/******/ 			"/vendor/mastering-nova/js/app": 0,
+/******/ 			"vendor/mastering-nova/css/app.tailwind": 0
 /******/ 		};
 /******/ 		
 /******/ 		// no chunk on demand loading
@@ -30592,8 +30592,8 @@ module.exports = JSON.parse('{"name":"axios","version":"0.21.4","description":"P
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	__webpack_require__.O(undefined, ["public/vendor/mastering-nova/css/app.tailwind"], () => (__webpack_require__("./resources/js/app.js")))
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["public/vendor/mastering-nova/css/app.tailwind"], () => (__webpack_require__("./resources/css/app.tailwind.css")))
+/******/ 	__webpack_require__.O(undefined, ["vendor/mastering-nova/css/app.tailwind"], () => (__webpack_require__("./resources/js/app.js")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["vendor/mastering-nova/css/app.tailwind"], () => (__webpack_require__("./resources/css/app.tailwind.css")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
