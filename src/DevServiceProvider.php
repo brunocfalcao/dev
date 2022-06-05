@@ -2,16 +2,17 @@
 
 namespace Brunocfalcao\Dev;
 
-use Illuminate\Support\ServiceProvider;
+use Eduka\Abstracts\EdukaServiceProvider;
 
-final class DevServiceProvider extends ServiceProvider
+final class DevServiceProvider extends EdukaServiceProvider
 {
-    public function register()
+    public function boot()
     {
-        //
+        $this->customViewNamespace(__DIR__.'/../resources/views', 'site');
+        config()->set('mail.mailers.postmark.token', env('POSTMARK_TOKEN'));
     }
 
-    public function boot()
+    public function register()
     {
         //
     }
