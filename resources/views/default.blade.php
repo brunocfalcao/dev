@@ -1,4 +1,4 @@
-<x-eduka::site title="brunofalcao.dev">
+<x-eduka::site title="{{ config('app.name') }}">
     <x-eduka::head>
         <link rel="stylesheet" type="text/css" href="/vendor/dev/css/app.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
